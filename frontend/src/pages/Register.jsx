@@ -1,9 +1,9 @@
-
+import Form from "../components/Form"
 
 function Register(){
     return (
         <div>
-            Register
+            <Form route="/api/user/register/"  method="register"/>
         </div>
     )
 }
