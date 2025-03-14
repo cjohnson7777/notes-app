@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import api from "../api"
 import { data } from "react-router-dom"
 import Note from "../components/Note"
+import '../styles/Home.css'
 
 
 function Home(){
